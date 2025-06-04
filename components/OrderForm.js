@@ -43,7 +43,7 @@ export default function OrderForm() {
       ? `https://www.google.com/maps?q=${userLocation.lat},${userLocation.lng}`
       : 'Tidak tersedia'
 
-    const link = `https://wa.me/6281288882?text=${encodeURIComponent(
+    const link = `https://wa.me/6281281004063?text=${encodeURIComponent(
       `Hai! Saya ingin melakukan pemesanan UPNExpress dengan detail pemesanan seperti berikut.\n\n` +
       `Nama: ${nama}\n` +
       `Nomor Telepon: ${telepon}\n` +
