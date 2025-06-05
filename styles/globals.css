@@ -46,3 +46,51 @@ body {
   content: none !important;
 }
 
+/* Search input (kotak pencarian) */
+.leaflet-control-geocoder-form input {
+  background-color: #fff !important;
+  color: #000 !important;
+  border: 1px solid #ccc !important;
+  font-size: 14px;
+}
+
+/* Icon search putih ke hitam */
+.leaflet-control-geocoder-icon {
+  filter: none; /* Jangan invert lagi */
+}
+
+/* Dropdown rekomendasi */
+.leaflet-control-geocoder-alternatives {
+  background: #fff;
+  color: #000;
+  border: 1px solid #ccc;
+  max-height: 200px;
+  overflow-y: auto;
+  font-size: 14px;
+  z-index: 1000;
+}
+
+/* Tiap item rekomendasi */
+.leaflet-control-geocoder-alternatives li {
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.leaflet-control-geocoder-alternatives li:hover {
+  background: #f2f2f2;
+}
+
+/* 💡 Fix agar dropdown bisa di-scroll tanpa tembus ke map */
+.leaflet-control-geocoder-alternatives {
+  pointer-events: auto;
+}
+
+.leaflet-control-geocoder {
+  pointer-events: auto !important;
+}
+
+/* Tambahan: cegah map dari terima scroll saat kursor di atas dropdown */
+.leaflet-container .leaflet-control {
+  z-index: 1001;
+}
