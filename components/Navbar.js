@@ -6,7 +6,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 py-6 flex justify-between items-center">
         <div className="flex items-center space-x-3 w-1/3">
 
-          <Image src="/images/logo.png" alt="upneXPRESS" width={80} height={80} />
+          <Image src="/images/logo.PNG" alt="upneXPRESS" width={80} height={80} />
         </div>
         <ul className="hidden md:flex justify-center space-x-10 text-base font-medium text-gray-700 w-1/3 mx-auto">
           <li><a href="#tentang" className="hover:text-blue-600">Tentang Kami</a></li>

@@ -6,7 +6,7 @@ export default function Document() {
     <Html>
       <Head>
         <title>UPNExpress</title>
-        <link rel="icon" type="image/png" href="/images/logo.png" />
+        <link rel="icon" type="image/png" href="/images/logo.PNG" />
       </Head>
       <body>
         <Main />
